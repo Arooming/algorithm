@@ -10,6 +10,7 @@ for _ in range (N) :
     x, y = list(map(int, input().split()))
     nums.append((x, y))
 
+''' nums.sort(key = lambda x : (x[0], x[1]))로 한번에 구현 가능 '''
 # x 좌표를 기준으로 오름차순 정렬
 nums.sort(key = lambda x : x)
 # y 좌표를 기준으로 오름차순 정렬
